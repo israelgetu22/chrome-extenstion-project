@@ -1,24 +1,63 @@
 body {
-  margin: 0;
+  margin: 0px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  background-color: #efecf3;
 }
 
 input {
   width: 100%;
   padding: 10px;
-
   box-sizing: border-box;
-
-  border: 1px solid #5f9341;
+  border: 1px solid #553c9a;
 }
 
 button {
-  background: #5f9341;
+  background: #553c9a;
   padding: 10px 20px;
   color: white;
-  border: none;
+  border: 1px solid #553c9a;
+
   margin-top: 5px;
   margin-left: 20px;
   font-weight: bold;
+}
+
+#del-btn {
+  background: white;
+  color: #553c9a;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  margin-top: 5px;
+  color: #553c9a;
+  font-weight: bold;
+  padding-top: 0px;
+}
+a {
+  color: #553c9a;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 35px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+p {
+  font-size: 10px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
 }
